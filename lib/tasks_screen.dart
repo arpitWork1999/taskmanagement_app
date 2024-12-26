@@ -83,6 +83,7 @@ class _TaskScreenState extends State<TaskScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor:Colors.white,
         title: Text(
           "Tasks",
